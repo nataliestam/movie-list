@@ -1,0 +1,30 @@
+{
+  "name": "movie-list",
+  "version": "1.0.0",
+  "description": "React Movie List",
+  "author": "Natalie Stam <natalielynnstam@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "test": "live-server --open=./SpecRunner.html --port=8081",
+    "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
+    "babel": "babel . --watch --out-dir compiled --presets=env,react --ignore=node_modules,compiled --source-maps inline"
+  },
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-watch": "^2.0.7",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
